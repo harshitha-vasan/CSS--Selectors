@@ -1,0 +1,43 @@
+/* Universal Selector */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 30px;
+}
+/* 1.Simple Selectors */
+/* id selector starts with# which is mostly used in forms*/
+#simple-selectors{
+    background-color: aqua;
+    border-radius: 20px; 
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    margin-right: 13px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-right: 2px;
+}
+/* Class selector*/
+.heading{
+    color: red;
+}
+.highlight{
+    color: gold;
+    font-style: italic;
+}
+/* Combinator selectors */
+/* Descendant combinator */
+ul li{
+    text-align: center;
+}
+/* div ul{
+    color: red;
+} */
+
+/* Child Selector refers to only the direct child */
+ div > ul{
+    color: greenyellow;
+ }
