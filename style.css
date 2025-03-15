@@ -36,8 +36,31 @@ ul li{
 /* div ul{
     color: red;
 } */
-
 /* Child Selector refers to only the direct child */
- div > ul{
-    color: greenyellow;
+/* div > ul{ */
+div > ul> li{
+    color: brown;
+ }
+ /* Next Sibling Combinator (+) mentions to element that is after section*/
+ section + li{
+    background-color: yellow;
+ }
+ /* Subsequent-sibling Combinator (~) similar like next sibling */
+ section ~ li{
+    font-size: xx-large;
+ }
+ /* Pseudo Class */
+ h1:hover{
+    color: violet;
+    background-color: darkorchid;
+ }
+ li:first-child{
+    text-align: right;
+ }
+ /* Pseudo Elements */
+ h2::first-line{
+    color: indigo;
+ }
+ ::marker{
+    color: lightcoral;
  }
